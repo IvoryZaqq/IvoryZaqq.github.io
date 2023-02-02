@@ -103,15 +103,16 @@ fetch('The 1975  About You.lrc')
       <img src="images/album.jpg" width="200" class="rounded mx-auto d-block" alt="...">
 
 
+       <div class="Player" id="player">
+        <audio src="http://webplusdevelopers.com/demo/media/legacy.mp3" 
+               v-el:audio></audio>
        <div id="lyricContainer">
          <h4 id="lyricHead">Lyrics:</h4>
          <p id="lyricBody"></p>
          <a id="link" target="_blank"></a>
       </div>
 
-      <div class="Player" id="player">
-        <audio src="http://webplusdevelopers.com/demo/media/legacy.mp3" 
-               v-el:audio></audio>
+      
         
         <div class="Player__cover" @click="hideText">
           <div class="Player__lyrics">
