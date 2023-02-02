@@ -1,1 +1,0 @@
-# IvoryZaqq.github.io
