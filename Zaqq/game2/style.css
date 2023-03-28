@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+
+canvas {
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -166.5px 0 0 -333px;
+  border: 1px solid black;
+}
