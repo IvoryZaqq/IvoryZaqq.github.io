@@ -7,7 +7,14 @@
    <link href="https://sp-bootstrap.global.ssl.fastly.net/8.0.0/sp-bootstrap.min.css" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="/Zaqq/zaqq.css"> 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   
+   <style>
+     body {
+      background-image: url("/Zaqq/background.jpg");
+      background-size: cover;
+     }
+   </style>
+
+
 </head>
  <html>
   <body>
@@ -20,12 +27,12 @@
     </nav><br>
 
 
-    <div class="card mx-auto" style="width: 35rem; background-color: #313131;">
-        <img src="/Zaqq/profile.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">IvoryZaqq</h5>
-          <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;لا أحد يستطيع أن يكشف لك شيئًا سوى ما يكمن بالفعل نصف نائم في بزوغ فجر علمك </p>
-        </div>
+    <div class="card mx-auto" style="width: 35rem; background-color: #313131; border-radius: 15px;">
+      <img src="/Zaqq/profile.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">IvoryZaqq</h5>
+        <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.لا أحد يستطيع أن يكشف لك شيئًا سوى ما يكمن بالفعل نصف نائم في بزوغ فجر علمك</p>
+      </div>
     </div><br>
 
     <div style="text-align:center; color:white;">
@@ -49,16 +56,24 @@
       </ul>
     </div><br>
 
-    <div style="text-align:left; color:white;">
-        <h4>&nbsp;&nbsp;&nbsp;Features:</h4>
+
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Features:</button>
+
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Features:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="list-group list-group-flush">
+            <a href="/Zaqq/game/game.html"><li style="font-size: 18px">&nbsp;&nbsp;&nbsp;&nbsp;Ghostbuster Gun</li></a>
+            <a href="/Zaqq/game2/game2.html"><li style="font-size: 18px">&nbsp;&nbsp;&nbsp;&nbsp;K1ll Th3m 4ll</li></a>
+            <a href="/Zaqq/game3/index.html"><li style="font-size: 18px">&nbsp;&nbsp;&nbsp;&nbsp;Magic Button</li></a>
+          </ul>
+        </div>
       </div>
 
-    <ul class="list-group list-group-flush">
-        <a href="/Zaqq/game/game.html"><li style="font-size: 18px">&nbsp;&nbsp;&nbsp;&nbsp;Ghostbuster Gun</li></a>
-        <a href="/Zaqq/game2/game2.html"><li style="font-size: 18px">&nbsp;&nbsp;&nbsp;&nbsp;K1ll Th3m 4ll</li></a>
-        <a href="/Zaqq/game3/index.html"><li style="font-size: 18px">&nbsp;&nbsp;&nbsp;&nbsp;Magic Button</li></a>
-        <a href="/index.html"><li style="font-size: 18px">&nbsp;&nbsp;&nbsp;&nbsp;About You - The 1975</li></a>
-    </ul>
+    
     
   
 
