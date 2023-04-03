@@ -121,3 +121,25 @@
  .a {
     color: white;
  }
+
+ .offcanvas-body {
+  background-color: #242424(78, 78, 78);
+}
+
+.offcanvas {
+  background-color: #242424; /* Set your preferred background color */
+}
+
+#offcanvasWithBothOptionsLabel {
+  color: #ffffff; /* Set your preferred text color */
+}
+
+.btn-primary[data-bs-toggle="offcanvas"] {
+  position: absolute;
+  left: 2%;
+}
+
+.btn-primary {
+  background-color: rgb(43, 103, 49);
+}
+
